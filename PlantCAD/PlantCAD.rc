@@ -1,0 +1,879 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PlantCAD.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#include ""l.CHS\\afxprint.rc""        // 打印/打印预览资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PlantCAD.ico"
+
+IDR_PLANTCADTYPE        ICON                    "res\\PlantCADDoc.ico"
+
+IDI_STRUCTURE           ICON                    "res\\icon1.ico"
+
+IDI_TEXTURE             ICON                    "res\\icon2.ico"
+
+IDI_PROPERTY            ICON                    "res\\icon3.ico"
+
+IDI_CALCULATE           ICON                    "res\\texture1.ico"
+
+IDI_TEMPLATE            ICON                    "res\\texture2.ico"
+
+IDI_MaizePointCloud     ICON                    "res\\idr_main.ico"
+
+IDI_KinectPointCloud    ICON                    "res\\maizepoi.ico"
+
+IDI_KinectCollect       ICON                    "res\\kinectpo.ico"
+
+IDI_MultiViewPointCloud ICON                    "res\\camera-accept.ico"
+
+IDI_SixLeaf             ICON                    "res\\SixLeaf.ico"
+
+IDI_PreProcess          ICON                    "res\\PreProcess.ico"
+
+IDI_ProcFlow            ICON                    "res\\y9.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_TOOLBAR_TEXTURE     BITMAP                  "res\\toolbar1.bmp"
+
+IDB_BITMAP_TEXTURE_TOOLBAR_NORMAL BITMAP                  "res\\bitmap1.bmp"
+
+IDR_TOOLBAR_SCENE       BITMAP                  "res\\bmp00001.bmp"
+
+IDR_TOOLBAR_OPERATE     BITMAP                  "res\\bmp00002.bmp"
+
+IDB_BITMAP_TOOLBAR_OPERATE BITMAP                  "res\\bmp00003.bmp"
+
+IDR_TOOLBAR_MAIZEORGANLEAF BITMAP                  "res\\toolbar_.bmp"
+
+IDB_BITMAP_TOOLBAR_MAIZEORGANLEAF BITMAP                  "res\\bitmap_t.bmp"
+
+IDR_TOOLBAR_MAIZEORGANEAR BITMAP                  "res\\bmp00004.bmp"
+
+IDR_TOOLBAR_MAIZEPLANT  BITMAP                  "res\\bmp00005.bmp"
+
+IDR_TOOLBAR_MAIZEORGANROOT BITMAP                  "res\\bmp00006.bmp"
+
+IDB_TOOLBAR_SCENE_NORMAL BITMAP                  "res\\bmp00007.bmp"
+
+IDB_TOOLBAR_LEAF_NORMAL BITMAP                  "res\\bmp00008.bmp"
+
+IDB_TOOLBAR_EAR_NORMAL  BITMAP                  "res\\bmp00009.bmp"
+
+IDB_TOOLBAR_PLANT_NORMAL BITMAP                  "res\\bmp00010.bmp"
+
+IDB_TOOLBAR_ROOT_NORMAL BITMAP                  "res\\bmp00011.bmp"
+
+IDB_TOOLBAR_OPERATE_NORMAL BITMAP                  "res\\bmp00012.bmp"
+
+IDR_TOOLBAR_MAIZECOLONY BITMAP                  "res\\bmp00013.bmp"
+
+IDB_TOOLBAR_COLONY_NORMAL BITMAP                  "res\\bmp00014.bmp"
+
+IDB_BITMAP_SPLASH       BITMAP                  "res\\bmp00015.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 20, 20
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      IDC_CTRLBTN_APPLY
+    BUTTON      ID_BUTTONTEST
+END
+
+IDR_TOOLBAR_TEXTURE TOOLBAR 20, 20
+BEGIN
+    BUTTON      IDC_TEXTURE_ADDNEW
+    BUTTON      IDC_TEXTURE_DELETE
+    BUTTON      IDC_TEXTURE_GENERATE
+END
+
+IDR_TOOLBAR_SCENE TOOLBAR 24, 24
+BEGIN
+    BUTTON      ID_SCENE_ORTHO
+    BUTTON      ID_SCENE_PERSP
+    BUTTON      ID_SCENE_FRONT
+    BUTTON      ID_SCENE_BACK
+    BUTTON      ID_SCENE_LEFT
+    BUTTON      ID_SCENE_RIGHT
+    BUTTON      ID_SCENE_TOP
+    BUTTON      ID_SCENE_BOTTOM
+    BUTTON      ID_SCENE_TRANS
+    BUTTON      ID_SCENE_ROTXY
+    BUTTON      ID_SCENE_ROTYZ
+    BUTTON      ID_SCENE_ROTZX
+    BUTTON      ID_SCENE_SCALE
+    BUTTON      ID_SCENE_REPOS
+    BUTTON      ID_SCENE_AXIS
+    BUTTON      ID_SCENE_GRIDXY
+    BUTTON      ID_SCENE_GRIDYZ
+    BUTTON      ID_SCENE_GRIDZX
+    BUTTON      ID_SCENE_CUBE
+    BUTTON      ID_SCENE_TEXT
+    BUTTON      ID_SCENE_LIGHT
+    BUTTON      ID_SCENE_LIGHTPARAM
+    BUTTON      ID_SCENE_POINT
+    BUTTON      ID_SCENE_LINE
+    BUTTON      ID_SCENE_POLYGON
+    BUTTON      ID_SCENE_RENDER
+    BUTTON      ID_SCENE_PROPERTIES
+END
+
+IDR_TOOLBAR_OPERATE TOOLBAR 24, 24
+BEGIN
+    BUTTON      ID_OPERATE_NORMAL
+    BUTTON      ID_OPERATE_DRAW
+    BUTTON      ID_OPERATE_PICK
+    BUTTON      ID_OPERATE_MOVE
+    BUTTON      ID_OPERATE_ROTATE
+    BUTTON      ID_OPERATE_SCALE
+END
+
+IDR_TOOLBAR_MAIZEORGANLEAF TOOLBAR 24, 24
+BEGIN
+    BUTTON      IDC_MAIZEORGANLEAF_SHOWSHEATH
+    BUTTON      IDC_MAIZEORGANLEAF_SHOWLEAF
+    BUTTON      IDC_MAIZEORGANLEAF_SHOWMDLPTS
+    BUTTON      IDC_MAIZEORGANLEAF_LEAFSHAPE
+    BUTTON      IDC_MAIZEORGANLEAF_RELOAD
+END
+
+IDR_TOOLBAR_MAIZEORGANEAR TOOLBAR 24, 24
+BEGIN
+    BUTTON      IDC_MAIZEORGANEAR_EDITEAR
+    BUTTON      IDC_MAIZEORGANEAR_SHOWHANDLE
+    BUTTON      IDC_MAIZEORGANEAR_SHOWCOB
+    BUTTON      IDC_MAIZEORGANEAR_SHOWKERNEL
+    BUTTON      IDC_MAIZEORGANEAR_SHOWSILK
+    BUTTON      IDC_MAIZEORGANEAR_SHOWBRACT
+    BUTTON      IDC_MAIZEORGANEAR_SHOWBRACTPLUS
+    BUTTON      IDC_MAIZEORGANEAR_SHOWBRACTREDUCE
+END
+
+IDR_TOOLBAR_MAIZEPLANT TOOLBAR 24, 24
+BEGIN
+    BUTTON      IDC_MAIZEPLANT_INIT
+    BUTTON      IDC_MAIZEPLANT_LOADSTALK
+    BUTTON      IDC_MAIZEPLANT_LOADLEAF
+    BUTTON      IDC_MAIZEPLANT_LOADTASSEL
+    BUTTON      IDC_MAIZEPLANT_LOADEAR
+    BUTTON      IDC_MAIZEPLANT_LOADROOT
+END
+
+IDR_TOOLBAR_MAIZEORGANROOT TOOLBAR 24, 24
+BEGIN
+    BUTTON      IDC_MAIZEORGANROOT_SHOWAXIS
+    BUTTON      IDC_MAIZEORGANROOT_SHOWNODE
+    BUTTON      IDC_MAIZEORGANROOT_SHOWBRANCH
+    BUTTON      IDC_MAIZEORGANROOT_SHOWHAIR
+    BUTTON      IDC_MAIZEORGANROOT_SHOWBRCHCTPLUS
+    BUTTON      IDC_MAIZEORGANROOT_SHOWBRCHCTREDUCE
+END
+
+IDR_TOOLBAR_MAIZECOLONY TOOLBAR 24, 24
+BEGIN
+    BUTTON      IDC_MAIZECOLONY_COLONYGEN
+    BUTTON      IDC_MAIZECOLONY_LANDGEN
+    BUTTON      IDC_MAIZECOLONY_OUTPUTPNT
+    BUTTON      IDC_MAIZECOLONY_OUTPUTOBJ
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    MENUITEM "System(&S)",                  ID_SYSTEM
+    MENUITEM "Opera(&O)",                   0
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Toolbar(&T)",                 ID_VIEW_SCENE_TOOLBAR
+        MENUITEM "StatusBar(&S)",               ID_VIEW_STATUS_BAR
+        MENUITEM "OperaBar(&O)",                ID_VIEW_OPERATE_TOOLBAR
+    END
+    POPUP "LeafVien"
+    BEGIN
+        MENUITEM "LeafVienPh",                  ID_LeafVienPh
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About LMPS(&A)...",           ID_APP_ABOUT
+        MENUITEM "PlantCAD (&P)",               ID_BUTTONTEST
+        MENUITEM "Help(&H)",                    ID_HELP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 281, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 PlantCAD"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Leaf midrib phenotype system",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2022",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,222,97,50,14,WS_GROUP
+    LTEXT           "Information Technology Research Center",IDC_STATIC,14,44,260,8
+    LTEXT           " Beijing Academy of Agriculture and Forestry Sciences",IDC_STATIC,12,59,239,8
+    LTEXT           " National Engineering Research Center for Information Technology in Agriculture",IDC_STATIC,10,74,265,8
+    LTEXT           "Beijing Key Lab of Digital Plant",IDC_STATIC,13,88,265,8
+END
+
+IDD_PROPERTY_DLG DIALOGEX 0, 0, 212, 317
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "应用",IDC_CTRLBTN_APPLY,0,179,37,14
+    COMBOBOX        IDC_CTRLCOMBO_KEYSTATE,0,0,212,42,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_CTRLLIST_PROP,0,16,212,114,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_CTRLBTN_ADDKEY,39,179,37,14,NOT WS_VISIBLE
+    PUSHBUTTON      "查看",IDC_CTRLBTN_VIEWGLOBAL,80,179,37,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_CTRLEDIT_DESCRIPTION,0,132,212,43,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    COMBOBOX        IDC_CTRLCOMBO_SHOWVIEW,0,198,212,41,CBS_DROPDOWN | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TEXTURE_DLG DIALOGEX 0, 0, 123, 258
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TEXTURE_LIST,"SysListView32",WS_BORDER | WS_TABSTOP,0,49,121,183
+    PUSHBUTTON      "浏览",IDC_TEXTURE_BROWSE,94,20,27,14
+    EDITTEXT        IDC_TEXTURE_PATH,1,22,90,12,ES_AUTOHSCROLL
+END
+
+IDD_MAIN_PROGRESS_DLG DIALOGEX 0, 0, 277, 31
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESSDLG_PROG,"msctls_progress32",WS_BORDER,15,9,244,12
+END
+
+IDD_SLIDER_DLG DIALOGEX 0, 0, 475, 16
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_FRAME_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,0,232,15
+    PUSHBUTTON      "|<<",IDC_FRAME_TOMIN,239,0,16,14
+    PUSHBUTTON      "<",IDC_FRAME_MPLAY,271,0,16,14
+    PUSHBUTTON      "||",IDC_FRAME_PAUSE,287,0,16,14
+    PUSHBUTTON      ">",IDC_FRAME_PPLAY,303,0,16,14
+    PUSHBUTTON      "|<",IDC_FRAME_MINUS,255,0,16,14
+    PUSHBUTTON      ">|",IDC_FRAME_PLUS,319,0,16,14
+    PUSHBUTTON      ">>|",IDC_FRAME_TOMAX,335,0,16,14
+    EDITTEXT        IDC_MINFRAME,393,1,21,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_CURFRAME,417,1,21,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_MAXFRAME,441,1,21,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_PLAY_SPEED,355,1,34,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_RunningLogDlg DIALOGEX 0, 0, 1378, 156
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,1,2,1364,147,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PlantCAD.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "PlantCAD.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_PROPERTY_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 183
+        BOTTOMMARGIN, 315
+    END
+
+    IDD_TEXTURE_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 121
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_MAIN_PROGRESS_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 276
+        TOPMARGIN, 1
+    END
+
+    IDD_SLIDER_DLG, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_RunningLogDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SLIDER_DLG DLGINIT
+BEGIN
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa131, 0x00c1, 
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa132, 0x00c1, 
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa133, 0x00c1, 
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa134, 0x00c1, 
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa135, 0x00c1, 
+    IDC_PLAY_SPEED, 0x403, 4, 0
+0xa136, 0x00c1, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "PlantCAD\n\nPlantCAD\n\n\nPlantCAD.Document\nPlantCAD.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "PlantCAD"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SCENE_PROPERTIES     "编辑当前视图属性参数"
+    ID_SCENE_ORTHO          "设置当前视图为正交投影模式"
+    ID_SCENE_PERSP          "设置当前视图为透视投影模式"
+    ID_SCENE_FRONT          "设置当前视图为前视图"
+    ID_SCENE_BACK           "设置当前视图为后视图"
+    ID_SCENE_LEFT           "设置当前视图为左视图"
+    ID_SCENE_RIGHT          "设置当前视图为右视图"
+    ID_SCENE_TOP            "设置当前视图为顶视图"
+    ID_SCENE_BOTTOM         "设置当前视图为底视图"
+    ID_SCENE_SCALE          "缩放当前视图的视口区域"
+    ID_SCENE_TRANS          "移动当前视图的视口区域"
+    ID_SCENE_ROTXY          "沿X或Y轴转动当前视图的视口区域"
+    ID_SCENE_ROTYZ          "沿Y或Z轴转动当前视图的视口区域"
+    ID_SCENE_ROTZX          "沿Z或X轴转动当前视图的视口区域"
+    ID_SCENE_AXIS           "显示/隐藏当前视图的坐标系"
+    ID_SCENE_GRIDXY         "显示/隐藏当前视图的XOY平面"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SCENE_REPOS          "初始化当前视图的视口区域"
+    ID_SCENE_TEXT           "显示/隐藏当前视图的文字"
+    ID_PLANTFORMIMAGE_MAIZE "根据图像提取株型数据"
+    IDC_SCICALCU_PNTRESULT  "载入Pnt数据，包含计算结果"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SCENE_GRIDYZ         "显示/隐藏当前视图的YOZ平面"
+    ID_SCENE_GRIDZX         "显示/隐藏当前视图的ZOX平面"
+    ID_SCENE_CUBE           "显示/隐藏当前视图的指示Box"
+    ID_SCENE_LIGHT          "开启/关闭当前视图的光照"
+    ID_SCENE_LIGHTPARAM     "编辑当前系统中的光源属性参数"
+    ID_SCENE_POINT          "设置当前视图绘制模式为点模式"
+    ID_SCENE_LINE           "设置当前视图绘制模式为线模式"
+    ID_SCENE_POLYGON        "设置当前视图绘制模式为面模式"
+    ID_SCENE_RENDER         "设置当前视图绘制模式为体模式"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZECOLONY_LANDGEN "在群体中生成地面"
+    IDC_MAIZECOLONY_COLONYGEN "生成群体模型"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZECOLONY_OUTPUTPNT "将群体模型导出为PNT格式"
+    IDC_MAIZECOLONY_OUTPUTOBJ "将群体模型导出为OBJ格式"
+    IDC_MAIZECOLONY_SAVE    "保存当前群体数据到文件"
+    IDC_MAIZECOLONY_LOAD    "打开已有群体数据文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OPERATE_NORMAL       "设置当前操作状态为常规(选择)"
+    ID_OPERATE_DRAW         "设置当前操作状态为绘制点"
+    ID_OPERATE_PICK         "设置当前操作状态为拾取绘制点"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OPERATE_MOVE         "设置当前操作状态为移动"
+    ID_OPERATE_ROTATE       "设置当前操作状态为转动"
+    ID_OPERATE_SCALE        "设置当前操作状态为缩放"
+    ID_MANAGE_TEMPL_SAVESCAN "保存扫描数据OBJ文件"
+    ID_MANAGE_TEMPL_SAVEFILE "保存模板文件"
+    ID_MANAGE_TEMPL_LOADFILE "打开模板文件"
+    ID_MAIZESTALK_SAVEFILE  "将当前节间数据保存到文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAIZEEAR_SAVEFILE    "将当前雌穗数据保存到文件"
+    ID_MAIZEROOT_GENERATE   "生成一组根系数据"
+    ID_MAIZEROOT_LOADFILE   "打开已有根系数据文件"
+    ID_MAIZEROOT_SAVEFILE   "将当前根系数据保存到文件"
+    IDC_MAIZEORGANLEAF_SHOWSHEATH "显示/隐藏当前叶片的叶鞘"
+    IDC_MAIZEORGANLEAF_SHOWLEAF "显示/隐藏当前叶片的叶片"
+    IDC_MAIZEORGANLEAF_SHOWMDLPTS "显示/隐藏当前叶片的控制点"
+    IDC_MAIZEORGANLEAF_LEAFSHAPE "显示当前叶片的叶形"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZECOLONY_REPLACE "将群体中的当前植株替换"
+    IDC_MAIZECOLONY_DELETE  "删除群体中的当前选中植株"
+    ID_MANAGE_TEMPL_IMPORTOLD "打开非9*13排的模板文件"
+    IDC_MAIZEORGANLEAF_RELOAD "重新载入当前叶片当前状态的控制点"
+    IDC_MAIZECOLONY_PARAMS  "群体形态特征参数输出"
+    ID_VIEW_TREE_CTRLPANE   "显示/隐藏结构控制面板"
+    ID_VIEW_PROP_CTRLPANE   "显示/隐藏结构属性面板"
+    33052                   "显示/隐藏纹理控制面板"
+    33053                   "显示/隐藏模板控制面板"
+    33054                   "显示/隐藏冠层控制面板"
+    IDC_MAIZEPLANT_SAVEPLANT "保存当前植株数据到文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZEORGANEAR_EDITEAR "编辑雌穗形状"
+    IDC_MAIZEORGANEAR_SHOWSILK "显示/隐藏雌穗花丝"
+    IDC_MAIZEORGANEAR_SHOWBRACTPLUS "显示雌穗苞叶序号增加"
+    IDC_MAIZEORGANEAR_SHOWBRACTREDUCE "显示雌穗苞叶序号减少"
+    IDC_MAIZEORGANEAR_SHOWHANDLE "显示/隐藏雌穗果穗柄"
+    IDC_MAIZEORGANEAR_SHOWCOB "显示/隐藏雌穗穗轴"
+    IDC_MAIZEORGANEAR_SHOWKERNEL "显示/隐藏雌穗籽粒"
+    IDC_MAIZEORGANEAR_SHOWBRACT "显示/隐藏雌穗苞叶"
+    IDC_MAIZEPLANT_INIT     "初始化植株参数"
+    IDC_MAIZEPLANT_LOADSTALK "载入当前植株的节间"
+    IDC_MAIZEPLANT_LOADLEAF "载入当前植株的叶片"
+    IDC_MAIZEPLANT_LOADTASSEL "载入当前植株的雄穗"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZEPLANT_LOADEAR  "载入当前植株的雌穗"
+    IDC_MAIZEPLANT_LOADROOT "载入当前植株的根系"
+    IDC_MAIZEORGANROOT_SHOWNODE "显示/隐藏当前根系的节根柱"
+    IDC_MAIZEORGANROOT_SHOWAXIS "显示/隐藏当前根系的中轴线和控制点"
+    IDC_MAIZEORGANROOT_SHOWBRANCH "显示/隐藏当前根系的分枝根"
+    IDC_MAIZEORGANROOT_SHOWHAIR "显示/隐藏当前根系的根毛"
+    IDC_MAIZEORGANROOT_SHOWBRCHCTPLUS "当前根系的分枝根序号增加"
+    IDC_MAIZEORGANROOT_SHOWBRCHCTREDUCE "当前根系的分枝根序号减少"
+    IDC_SCICALCU_LIGHTDISTRIB "群体冠层模型光分布计算模块"
+    ID_SCENE_RESET          "重置当前系统"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_OPERATE_TOOLBAR "显示/隐藏操作工具栏"
+    ID_VIEW_LEAF_TOOLBAR    "显示/隐藏叶片工具栏"
+    ID_VIEW_EAR_TOOLBAR     "显示/隐藏雌穗工具栏"
+    ID_VIEW_ROOT_TOOLBAR    "显示/隐藏根系工具栏"
+    ID_VIEW_PLANT_TOOLBAR   "显示/隐藏植株工具栏"
+    ID_VIEW_COLONY_TOOLBAR  "显示/隐藏群体工具栏"
+    IDC_OUTPUT_BMPFILE      "截取当前视口区域的位图"
+    IDC_OUTPUT_AVI          "截取当前视口区域的视频,点击菜单后按S键开始,P键结束"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MANAGE_TEMPL_NEW     "新建模板对象"
+    ID_MANAGE_TEMPL_LOADSCAN "打开扫描数据OBJ文件"
+    ID_MANAGE_TEMPL_INPUT   "从数据库中载入模板"
+    ID_MANAGE_TEMPL_OUTPUT  "向数据库中输出模板数据"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PLANTFORMDESIGN_MAIZE "设计玉米株型"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MAIZEPLANT_LOADPLANT "打开已有植株数据"
+    33057                   "品种数据库管理"
+    IDC_MAIZEPLANT_TURNTO   "切换当前设计状态为植株设计"
+    IDC_MAIZECOLONY_TURNTO  "切换当前设计状态为群体设计"
+    IDC_MAIZECOLONY_SENSRGEN "生成传感器"
+    33065                   "群体参数分析"
+    IDC_MAIZECOLONY_COPY    "群体复制"
+    IDC_MAIZECOLONY_EXTRACTSKN "提取当前群体的骨架"
+    IDC_MAIZECOLONY_SHOWSKN "显示当前群体的骨架"
+    IDC_MAIZECOLONY_APPLYSKN "应用当前群体的骨架"
+    IDC_OUTPUT_SQEN         "连续输出位图序列"
+END
+
+STRINGTABLE
+BEGIN
+    ID_LIFEPERIOD_MAIZE     "设置玉米生命周期"
+    ID_MAIZESTALK_GENERATE  "生成一组节间数据"
+    ID_MAIZESTALK_LOADFILE  "打开已有节间数据文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAIZESTALK_TURNTO    "将当前设计状态切换至节间设计"
+    ID_MAIZELEAF_TURNTO     "将当前设计状态切换至叶片设计"
+    ID_MAIZETASSEL_TURNTO   "将当前设计状态切换至雄穗设计"
+    ID_MAIZEEAR_TURNTO      "将当前设计状态切换至雌穗设计"
+    ID_MAIZEROOT_TURNTO     "将当前设计状态切换至根系设计"
+    IDC_SCICALCU_ROOT       "计算群体根系参数"
+    IDC_SCICALCU_CANOPY     "计算群体冠层参数"
+    IDC_SCICALCU_SETBOX     "设置科学计算有效区域范围"
+    IDC_SCICALCU_SHOWBOX    "显示/隐藏科学计算有效区域范围"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAIZETASSEL_GENERATE "生成一组雄穗数据"
+    ID_MAIZETASSEL_LOADFILE "打开已有雄穗数据文件"
+    ID_MAIZETASSEL_SAVEFILE "将当前雄穗数据保存到文件"
+    ID_MAIZEEAR_GENERATE    "生成一组雌穗数据"
+    ID_MAIZEEAR_LOADFILE    "打开已有雌穗数据文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAIZELEAF_GENERATE   "生成一组叶片数据"
+    ID_MAIZELEAF_LOADFILE   "打开已有叶片数据文件"
+    ID_MAIZELEAF_SAVEFILE   "将当前叶片数据保存到文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTONTEST           "PlantCAD系列"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PlantCAD.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#include "l.CHS\afxprint.rc"        // 打印/打印预览资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
